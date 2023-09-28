@@ -1,0 +1,52 @@
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+    /* background-color: blue; */
+  }
+  .hero-h1 {
+    font-size: 4.4rem;
+  }
+  .second-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+/* 1330 */
+@media (max-width: 75em) {
+  html {
+    font-size: 52.25%;
+  }
+  .cta-container {
+    max-width: 140rem;
+    margin: 0 auto;
+  }
+  .cta-img {
+    height: 100%;
+  }
+  .grid-footer {
+    column-gap: 9.6rem;
+  }
+  .hero {
+    gap: 8.2rem;
+  }
+
+  .first-section {
+    gap: 3.2rem;
+  }
+  .heading-gallery {
+    font-size: 4rem;
+  }
+  .text-quote {
+    font-size: 2rem;
+  }
+  .form {
+    width: 80%;
+  }
+  .form-text {
+    font-size: 4.8rem;
+    margin: 3rem;
+  }
+  .form-p {
+    font-size: 2.2rem;
+    margin: 3rem;
+  }
+}
